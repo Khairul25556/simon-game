@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    background-color: red;
+}
+
+a:hover{
+    background-color: rgba(255, 0, 0, 0.336);
+}
+
+.img{
+    background-image: url(assets/wood.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.btn{
+    border : 10px solid black;
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+}
+h2{
+    animation: heading 2s linear infinite;
+}
+@keyframes heading{
+    0%{
+        color: white;
+    }
+
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: white;
+    }
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.purple{
+    background-color: #819ff0;
+}
+
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
+
+@media (max-width: 600px){
+    .btn{
+        height: 150px;
+        width: 150px;
+        margin: 0.5rem;
+    }
+    body{
+        background-size: auto;
+    }
+
+}
