@@ -10,29 +10,25 @@ let level = 0;
 let h2 = document.querySelector('h2');
 
 //**1st Process
-document.addEventListener('keypress', function() {   
-    if (started == false){ //* Code checks the value of started
-        console.log('game is started');
-        started = true; //* Now we change it to true
+// //**1st Process
+function startGame(event) {
+    if (!started) {  //* Only runs if the game hasn't started
+        console.log('Game is started');
+        started = true;
         levelUp();
     }
-});
+}
 
-document.addEventListener('click', function() {   
-    if (started == false){ //* Code checks the value of started
-        console.log('game is started');
-        started = true; //* Now we change it to true
-        levelUp();
-    }
-});
 
-document.addEventListener('touchstart', function() {   
-    if (started == false){ //* Code checks the value of started
-        console.log('game is started');
-        started = true; //* Now we change it to true
-        levelUp();
-    }
-});
+// document.addEventListener('keypress', function() {   
+//     if (started == false){ //* Code checks the value of started
+//         console.log('game is started');
+//         started = true; //* Now we change it to true
+//         levelUp();
+//     }
+// });
+
+
 
 function gameFlash(btn) {
     btn.classList.add('flash');
