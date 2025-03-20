@@ -26,6 +26,14 @@ document.addEventListener('click', function() {
     }
 });
 
+document.addEventListener('touchstart', function() {   
+    if (started == false){ //* Code checks the value of started
+        console.log('game is started');
+        started = true; //* Now we change it to true
+        levelUp();
+    }
+});
+
 function gameFlash(btn) {
     btn.classList.add('flash');
     setTimeout(function(){
