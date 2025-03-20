@@ -10,7 +10,9 @@ let level = 0;
 let h2 = document.querySelector('h2');
 
 //**1st Process
-// //**1st Process
+
+document.addEventListener('keypress', startGame);
+document.addEventListener('touchstart', startGame);
 function startGame(event) {
     if (!started) {  //* Only runs if the game hasn't started
         console.log('Game is started');
