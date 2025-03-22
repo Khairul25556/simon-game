@@ -1,4 +1,4 @@
-#-------------------------------------------------------HOW TO PLAY!--------------------------------------------------------
+# HOW TO PLAY!
 
 1. Assume in Level 1, the game shows Red. You need to click Red to advance to the next level.
 
