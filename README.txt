@@ -7,4 +7,4 @@
 **Each level adds one more color to the sequence. The goal is to remember the sequence of colors and click them in the same order.
 **If you make a mistake, the game will end. Try to go as far as you can!
 
-![image alt](https://github.com/Khairul25556/simon-game/blob/main/simon-game.JPG?raw=true)
+![image alt](https://github.com/Khairul25556/simon-game/blob/main/simon-game.jpg?raw=true)
